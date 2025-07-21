@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Saída em Javascrip</h1>
+    <p>usando o <code>innerHtml</code>:</p>
+    <p id="demo1"></p>
+    <script>
+        document.getElementsBy("demo1").innerhtml = 5+6;
+    </script>
+    <p>Usando o  <code>document.write</code:></p>
+    <script>
+        document.write(5+6);
+    </script>
+    <p>
+    <strong>Usar <code>document.write()</code>após o carregamento de um documento  Html excluirá todo Html existente</strong>
+    <p>
+    <button type="button" onclick="document.write(5 + 6)">
+</button>                  Teste
+    </p>
+ </button>
+<p>O metódo document.write() so deve ser usado em teste</p>  
+  <p>Usando o <code>Window.alert</code></p>
+  <script>
+    window.alert(5 + 6);
+</script>
+<p> Voce pode pular a palavra-chave <code>window</code>.</p>
+<p>Em Javascrip o objeto <code>window</code> é o obejeto de escopo global
+isso significa que a variáveis propriedadesem metódos por padrao pertencem ao obejeto <code>window</code>.
+isso também significa que especificar a palavra-chave
+<code>Window</code> é opcional.</p>
+<script>
+alert( 5+6);
+</script>
+<p>Usando o <code>console.log()</code> para fins de depuração
+(aperte F12 no teclado).</p>
+<Script>
+    console.log(5+6);
+</Script>
+</body>
+</html>
